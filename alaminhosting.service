@@ -1,0 +1,26 @@
+[Unit]
+Description=ALAMIN HOSTING Flask App
+After=network.target nginx.service
+
+[Service]
+Type=simple
+User=root
+WorkingDirectory=/opt/alaminhosting
+
+Environment="PORT=5001"
+Environment="BASE_DOMAIN=alaminhosting.com"
+Environment="DOMAIN_SCHEME=https"
+Environment="SERVER_PORT_START=8000"
+Environment="SERVER_PORT_END=9000"
+Environment="NGINX_AUTO_UPDATE=1"
+Environment="SECRET_KEY=change-this-to-a-long-random-string"
+Environment="ADMIN_EMAIL=mdalaminmmmnnn037@gmail.com"
+Environment="ADMIN_PASSWORD=ALAMIN@DD"
+Environment="FLASK_DEBUG=0"
+
+ExecStart=/opt/alaminhosting/venv/bin/python /opt/alaminhosting/app.py
+Restart=always
+RestartSec=5
+
+[Install]
+WantedBy=multi-user.target
