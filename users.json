@@ -1,0 +1,36 @@
+{
+    "admin": {
+        "email": "mdalaminmmmnnn037@gmail.com",
+        "password": "ffb945f35af3719150acccd3c568f0ac$444c14c621083762858bb508443170a10b8fb49e2bf1ac43ad393fc83f7ee438",
+        "role": "admin"
+    },
+    "ALAMINMMM": {
+        "password": "aadae7644af3b56523a74f985a80f22b$8074be9ca016b0cb77326435ad43f86d2c3219e9613f583497dcfaa5befb931f",
+        "plain_password": "ALAMINMMM",
+        "role": "user",
+        "servers": [
+            {
+                "server_id": "51ebfe75",
+                "link": "51ebfe75",
+                "login_url": "/51ebfe75/login",
+                "dashboard_url": "/51ebfe75/home",
+                "full_link": "http://127.0.0.1:5001/51ebfe75/home",
+                "type": "python",
+                "ram": "128MB",
+                "disk": "1GB",
+                "status": "running",
+                "pid": 18206,
+                "created": "2026-09-25 07:09:38.856573",
+                "expiry": "2026-10-25 07:09:38.796035",
+                "main_file": "main.py",
+                "requirements_file": "requirements.txt",
+                "cpu_limit": 100,
+                "rate_limit_exceeded": false,
+                "stopped_by_user": true,
+                "port": 8000,
+                "started_at": "2026-09-25 07:11:41.216186",
+                "domain": "https://08v5n8qb.alaminhosting.com"
+            }
+        ]
+    }
+}
